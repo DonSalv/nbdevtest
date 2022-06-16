@@ -32,7 +32,7 @@ say_goodbye(to="Salvador")
 
     NameError                                 Traceback (most recent call last)
 
-    Input In [4], in <cell line: 1>()
+    Input In [7], in <cell line: 1>()
     ----> 1 say_goodbye(to="Salvador")
     
 
