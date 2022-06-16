@@ -4,18 +4,20 @@ __all__ = ['say_hello', 'say_goodbye']
 
 # Cell
 def say_hello(to:str) -> str:
-    """
-    A quick example of a function
+    """A quick example of a function
+
     :param to: The name of the person to greet
+
     :return: A string with a greeting
     """
     return f"Hello {to}!"
 
 # Cell
 def say_goodbye(to:str) -> str:
-    """
-    A second example of a quick function
+    """A second example of a quick function
+
     :param to: The name of the person to say bye
+
     :return: A string with a farewell
     """
     return f"Goodbye {to}!"

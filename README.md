@@ -1,16 +1,18 @@
-# Project name here
-> Summary description here.
+# nbdevtest
+> This project is to setup a python library immediately from Jupyter notebooks using nbdev
 
 
-This file will become your README and also the index of your documentation.
+This file is generated with the index.ipynb file. After running the nbdev_build_docs it will become the README and also the index of the library documentation.
 
-## Install
+## How to install
+
+Run the pip install command with the name of the library
 
 `pip install nbdevtest`
 
-## How to use
+## Example of how to use it
 
-Fill me in please! Don't forget code examples:
+The library has a core notebook with only two functions to greet and say goodbye.
 
 ```
 say_hello(to="Salvador")
@@ -28,13 +30,8 @@ say_goodbye(to="Salvador")
 ```
 
 
-    ---------------------------------------------------------------------------
 
-    NameError                                 Traceback (most recent call last)
 
-    Input In [7], in <cell line: 1>()
-    ----> 1 say_goodbye(to="Salvador")
-    
+    'Goodbye Salvador!'
 
-    NameError: name 'say_goodbye' is not defined
 
