@@ -22,3 +22,19 @@ say_hello(to="Salvador")
     'Hello Salvador!'
 
 
+
+```
+say_goodbye(to="Salvador")
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    Input In [4], in <cell line: 1>()
+    ----> 1 say_goodbye(to="Salvador")
+    
+
+    NameError: name 'say_goodbye' is not defined
+
