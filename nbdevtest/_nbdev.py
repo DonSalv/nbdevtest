@@ -5,10 +5,13 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 index = {"say_hello": "00_core.ipynb",
          "say_goodbye": "00_core.ipynb",
          "say_ciao": "01_example.ipynb",
-         "start_small_talk": "01_example.ipynb"}
+         "start_small_talk": "01_example.ipynb",
+         "say_ciao_2": "02_testing.ipynb",
+         "start_small_talk_2": "02_testing.ipynb"}
 
 modules = ["core.py",
-           "example.py"]
+           "example.py",
+           "testing.py"]
 
 doc_url = "https://DonSalv.github.io/nbdevtest/"
 
